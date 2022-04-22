@@ -119,6 +119,8 @@ else:
     thro_start_time = time.time()
     # Temporarily hard coding
     no_of_cs = 4
+    #if rank > size/2:
+    #    no_of_cs = 6
     while no_of_cs > 0:
         
         # Check if need to enter CS now
