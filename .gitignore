@@ -1,0 +1,11 @@
+# Ignore executables
+*.out
+
+# Ingore shell scripts
+*.sh
+
+# Ignore swap files
+*.swp
+
+# Ignore test files
+test.py
