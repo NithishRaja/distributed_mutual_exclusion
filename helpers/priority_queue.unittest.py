@@ -38,6 +38,15 @@ class TestPriorityQueueMethods(unittest.TestCase):
             self.assertEqual(elem[0], 10)
             self.assertEqual(elem[1], it + 6)
 
+    def test_remove(self):
+        for it in range(5):
+            self.pq.insert(it*10, it)
+        self.pq.remove_by_id(1)
+        queue = self.pq.get_queue()
+        for it in range(len(queue)):
+            self.assertNotEqual(queue[it][0], 1*10)
+            self.assertNotEqual(queue[it][1], 1)
+
     def TearDown(self):
         del self.pq
 
