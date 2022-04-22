@@ -9,3 +9,7 @@
 
 # Ignore test files
 test.py
+
+# Ignore caches
+*__pycache__*
+__pycache__/*
