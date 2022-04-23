@@ -107,9 +107,9 @@ else:
     # Begin computation
     thro_start_time = time.time()
     # Temporarily hard coding
-    no_of_cs = 2
+    no_of_cs = 2 
     #if rank > size/2:
-    #    no_of_cs = 6
+    #    no_of_cs = 8 
   
 
     while no_of_cs > 0:
