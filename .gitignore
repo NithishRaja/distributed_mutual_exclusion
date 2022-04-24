@@ -13,3 +13,6 @@ test.py
 # Ignore caches
 *__pycache__*
 __pycache__/*
+
+# Ignore log files
+log_*.txt
