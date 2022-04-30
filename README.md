@@ -18,3 +18,9 @@ mpiexec -n <no_of_processes> python <algo_name>_algorithm.py
 
 * Unittests are available for all helper functionalities
 * To execute unittests, run `python <helper_functionality>.unittest.py`
+
+## Analysis
+
+* Report: [overleaf](https://www.overleaf.com/read/kfmkdctxhfsz)
+* Readings: [google dirve](https://drive.google.com/drive/folders/1xpaQAE8J1g8AHVyUAV5Y5oRQcuLqkB7M)
+* Plots: [google colab](https://colab.research.google.com/drive/1xdqbrwd9MDwlybic9dhlxckm5hgEByRO?usp=sharing)
